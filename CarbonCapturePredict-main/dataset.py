@@ -50,4 +50,5 @@ class CustomImageDataset(Dataset):
             gt = self.transform(gt)
 
         
-        return image , sh, carbon, gt
+        #return image , sh, carbon, gt
+        return image , gt
