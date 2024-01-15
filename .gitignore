@@ -161,4 +161,4 @@ cython_debug/
 
 CarbonCapturePredict-main/ccp/
 mmsegmentation/checkpoints/
-mmsegmentation-main/checkpoints/
+mmsegmentation-master/checkpoints/
