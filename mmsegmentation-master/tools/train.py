@@ -9,7 +9,7 @@ import warnings
 import mmcv
 import torch
 import torch.distributed as dist
-from mmcv.cnn.utils import revert_sync_batchnorm
+from mmengine.model.utils import revert_sync_batchnorm
 from mmcv.runner import get_dist_info, init_dist
 from mmcv.utils import Config, DictAction, get_git_hash
 
